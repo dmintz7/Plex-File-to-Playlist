@@ -1,0 +1,5 @@
+plex_host="
+plex_api=""
+playlist_name = ""
+file = r""
+start_date=""
