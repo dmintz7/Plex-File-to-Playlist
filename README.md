@@ -3,6 +3,7 @@
 Convert text file to Plex playlist 
 
 To Use:
+* Run  pip install -r requirements.txt or pip3 install -r requirements.txt
 * Create Text file with the full path of each episode/movie.
 	* The file path needs to be the same path that is visiable to the Plex instance.
 * Copy config.py.sample to config.py and populate plex_api, plex_host, playlist_name and file. start_date is optional.
