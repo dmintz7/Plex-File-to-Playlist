@@ -4,3 +4,5 @@ config.py
 
 !requirements.txt
 *.pyc
+*.idea
+venv/*

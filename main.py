@@ -42,7 +42,11 @@ if len(keep) > 0:
 				
 	for playlist in plex.playlists():
 		if playlist.title == config.playlist_name:
-			playlist.delete()
+			try:
+				playlist.delete()
+			except:
+				pass
+				
 	plex.createPlaylist(config.playlist_name, play_lst)
 else:
 	print("No Videos Found, Playlist Not Created")
